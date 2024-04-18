@@ -1,0 +1,66 @@
+#wrapper{
+width: 600px;
+margin: 20px auto;
+border: 1px solid black;
+}
+
+#top_nav{
+width: auto;
+height: 60px;
+}
+
+#top_nav div#buttons{
+float: right;
+width: 200px;
+height: 60px;
+}
+
+#top_nav div#dict_name{
+float: left;
+width: 400px;
+height: 30px;
+}
+
+#top_nav div#search_box{
+width: 400px;
+height: auto;
+}
+
+#top_nav div#search_box input{
+position: relative;
+width: 384px;
+height: 30px;
+background-color: transparent;
+background: url(images/search_box_mid.png) repeat-x top left;
+color: #695f5b;
+padding: 0px 0px;
+border: none;
+float:left;
+}
+
+#top_nav div#search_box img{
+float:left;
+}
+
+#content h1{
+color: #632A43;
+font-size: 1.2em;
+font-familly: helvetica, arial, sans-serif;
+font-weight: bold;
+text-transform: lowercase;
+text-align:left;
+vertical-align: bottom;
+height: 22px;
+padding-top:8px;
+}
+
+#content h2{
+color: #695f5b;
+font-size:1.2em;
+font-family: Georgia, Serif;
+border: 1px solid white;
+}
+
+#content div#meaning p{
+color: #695f5b;
+}
